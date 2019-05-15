@@ -1,0 +1,209 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+.div1{   
+    background-color: #081224;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.div1-inside {
+    padding-top: 2%;
+}
+.div1-inside a{
+    color: grey;
+    text-decoration:none;
+    font-size: 14px;
+}
+.div1-inside a:hover{
+    color: red;
+}
+.red a{
+    color: red;
+}
+.red{color: red;}
+.div2-inside{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.div2-inside a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    color: #262626;
+}
+.div2-inside a:hover{
+    color: red;
+}
+.div3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.content{
+    background-color: #F4F4F4;
+}
+.div4{
+    background-color:  #081224;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Britannic;
+    border-left: 10px solid red;
+}
+.div5{
+    background-color: #262F3E;
+    color: #fff;
+    border-left: 10px solid red;
+}
+.current{
+    background-color: red;
+    padding: 10px 30px;
+    margin-left: -15px;
+}
+.not-current{
+    padding: 10px 15px;
+}
+.div5-inside a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.div5-inside .not-current a:hover{
+    color: red;
+}
+.div6-inside a{
+    font-size: 25px;
+    color: #363636;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.div6-inside a:hover{
+    text-decoration: none;
+    color: red;
+}
+.div7{
+    background-color:  #081224;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 23px;
+    border-left: 10px solid red;
+}
+.card-text{
+    font-size: 15px;
+}
+.div8-inside a{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    color: #363636;
+    font-family: impact;
+}
+.div8-inside a:hover{
+    text-decoration: none;
+    color: red;
+}
+.grey{
+    color: #666666;
+    font-size: 14px;
+}
+.div8{
+    margin-left: 10px;
+}
+.div8-inside{
+    padding-top: 5%;
+}
+.btn-submit{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #969696;
+    color: #fff;
+}
+.div9{   
+    background-color: #081224;
+    border-top:8px solid red;
+}
+.div9-inside {
+    padding-top: 10%;
+    padding-bottom: 7%;
+    color: #fff;
+}
+.div9-inside a{
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+}
+.div9-inside a:hover{
+    color: red;
+}
+.search{
+    border-radius: 20px;
+    padding: 14px 25px;
+    background-color: #262F3E;
+    border-style: hidden;
+    margin-top: -10px;
+    font-size: 14px;
+}
+/*.round1{
+    border-radius: 100%;
+    padding: 12px 17px;
+    margin-top: -10px;
+    margin-left: -20px;
+    background-color: lightblue;
+}
+.round2{
+    border-radius: 100%;
+    padding: 12px 17px;
+    margin-top: -75px;
+    margin-left: 40px;
+    background-color: blue;
+}
+.round3{
+    border-radius: 100%;
+    padding: 12px 17px;
+    margin-top: -125px;
+    margin-left: 90px;
+    background-color: red;
+}*/
+.extra{
+    font-size: 13px;
+    margin-top: 15px;
+    }
+.training{
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.training:hover{
+    background-color: #081224;
+}
+.extra2{
+    background-color: #fff;
+}
+.sign-up{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.sign{
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 20px;
+}
+.sign:hover{
+    color: red;
+    background-color: #fff;
+}
+.right{
+    margin-right: -10px;
+}
+.extra3{
+    background-color: #f4f4f4;
+}

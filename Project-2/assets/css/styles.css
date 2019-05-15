@@ -1,0 +1,256 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+.navig{
+    color: rgb(58,175,169);
+}
+.searchbar{
+    background-color: rgb(33,98,95);
+    padding: 8px;
+}
+.search{
+    background-color: rgb(58,175,169);
+    text-align: center;
+    padding: 9px 30px;
+    color: #fff;
+    font-size: 16px;
+}
+.search-icon{
+    display:inline-block;
+    text-align:center;
+    background-color: rgb(58,175,169);
+    color:white;
+    padding: 10px; 
+    margin:0px;
+}
+.hepatitis-row{
+    background-color: rgb(231,231,231);
+}
+.hepatitis{
+    padding: 40px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-categories-row{
+    background-color: rgb(231,231,231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.all-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-color: rgb(58,175,169);
+    color: #fff;
+    padding: 9px 2px;
+}
+.Indias{
+    color: rgb(242,137,141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    margin-left: 10px;
+}
+.indias-content{
+    color: rgb(242,137,141);
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size: 20px;
+    
+}
+.span-icons{
+    display:inline-block;
+    text-align:center;
+    background-color:#f2898d; 
+    border-radius:100px;
+}
+.icon-class{
+    font-size:36px;
+    width:80px;
+    height:80px;
+    line-height:36px;
+    color: white;
+    padding: 20px;
+}
+.plates{
+    background-color: rgb(58,175,169);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:50px;
+}
+.plates2{
+    background-color: rgb(58,175,169);
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.plate-icons{
+    display:inline-block;
+    text-align:center;
+}
+.greeny{
+    color: rgb(58,175,169);
+    background-color: #fff;
+}
+.whity{
+    color: #fff;
+}
+.footer2{
+    background-color: rgb(33,98,95);
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-class2{
+    font-size:20px;
+    width:20px;
+    height:20px;
+    color: white;
+    padding: 5px;
+}
+.icon-class3{
+    font-size:12px;
+    width:20px;
+    height:20px;
+    color: white;
+    padding: 5px;
+}
+.Title{
+    font-size: 30px;
+    font-family: serif;
+    font-weight:bolder;
+}
+.span-icons4{
+    display:inline-block;
+    text-align:center;
+    background-color:white; 
+    border-radius:100px;
+}
+.icon-class4{
+    font-size:20px;
+    width:35px;
+    height:35px;
+    color: rgb(58,175,169);
+    padding: 8px;
+}
+.ind{
+    padding: 5px;
+    margin: 10%;
+}
+.emailbox{
+    padding: 2vh 0% 2vh 0%;
+}
+table{
+    margin: 0px;
+    padding: 0px;
+}
+.searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 60em;
+}
+.ress{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 1px;
+}
+
+/*-------------------------------Media Queries start here----------------------------------------*/
+@media(max-width:575px){
+    .searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 13.3em;
+    margin: 0px;
+    }
+.plates2{
+    background-color: rgb(58,175,169);
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.emailbox{
+    padding: 2vh 0% 2vh 0%;
+    width: 15em;
+}
+.hepatitis{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.search{
+    width: 4em;        
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 35em;
+    margin-left: 0px;        
+    }
+.plates2{
+    background-color: rgb(58,175,169);
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+    .search-icon{
+    display:inline-block;
+    text-align:center;
+    background-color: rgb(58,175,169);
+    color:white;
+    padding: 10px; 
+    margin:0px;
+}
+.emailbox{
+    padding: 2vh 0% 2vh 0%;
+    width: 30em;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+.searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 40em;
+}    
+.emailbox{
+    padding: 2vh 0% 2vh 0%;
+    width: 40em;
+}
+}
+@media(min-width:992px) and (max-width:1200px){
+.searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 50em;
+}     
+.emailbox{
+    padding: 2vh 0% 2vh 0%;
+    width: 10em;
+}
+}
+@media(min-width:1201px){   
+.searchbox{
+    padding: 1vh 0% 1vh 2%;
+    width: 70.5em;
+    margin: 0px;
+}
+.candy{
+    position: absolute;
+    margin-left: 630px;
+}
+}

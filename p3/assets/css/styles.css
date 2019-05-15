@@ -1,0 +1,160 @@
+body{
+    margin: 5px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+.navbar-font{
+    color: #000;
+    background-color:#ffffff;
+}
+a{
+    color: #000;
+}
+.padding{
+    padding: 10px;
+}
+.padding-top{
+    padding-top: 10px;
+}
+.padding-top2{
+    padding-top: 50px;
+}
+.padding-bottom{
+    padding-bottom: 10px;
+}
+.padding-right{
+    padding-right: 10px;
+}
+.padding-left{
+    padding-left: 40px;
+}
+.padding-left2{
+    padding-left: 100px;
+}
+.padding-30{
+    padding: 30px 30px 30px 30px;
+}
+.couple-book{
+    font-size: 20px;
+    font-style: bold;
+}
+.shadow{
+    box-shadow: 0px 5px darkgrey;
+}
+.border{
+    border: #c6c6c6;
+}
+.grey{
+   background-color: #f2f2f2;
+}
+.white{
+    background-color: #fff;
+}
+.font-grey{
+    color: darkgrey;
+}
+li{
+    list-style: none;
+}
+.icons{
+    font-size:33px;width:24px;height:24px;line-height:24px;
+}
+.icons:hover{
+    color: blue;
+}
+.rupee-font{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+unbold{
+    font-style: normal;
+    font-size: 20px;
+}
+.wall-calendar{
+    font-size: 30px;
+    font-style: bold;    
+}
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 2px;
+  font-size: 17px;
+  padding: 12px 50px;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  outline: 0;
+}
+.sameline{
+    display: inline-flex;
+}
+.yellow{
+    background-color: yellow;
+    padding: 5px 17px;
+}
+.yellow:hover {
+  background: #FFFF33;
+}
+.gray{
+    background-color: darkgrey;
+    padding: 2px 17px;
+    font-size: 24px;
+}
+.gray:hover{
+    background-color: lightgrey;
+}
+
+
+
+
+/*---------------Media query starts here----------------------*/
+@media(max-width:768px){   
+    .pad{
+        padding-left: 32px;
+        padding-right: -32px;
+    }
+    .pad2{
+        padding-left: 40px;
+        padding-right: -40px;
+    }
+    .container{
+        margin-left: -5px;
+        margin-right: -25px;
+    }
+    body{
+    margin: 5px 0px -25px 0px;
+    padding-right: -25px;
+}
+    
+.padding-left2{
+    padding-left: 10px;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+.rupee-font{
+    margin: -35px 25px;
+}
+.rupee{
+    margin-right: 80px;
+}
+.sameline2{
+    text-align: right;
+    margin-top: -65px;
+}
+.covertype{
+    text-align: left;
+    margin: 0px 0px 0px -100px;
+    }
+.covertype2{
+    margin: -50px -30px 0px 50px;
+    }
+}
