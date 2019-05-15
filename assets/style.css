@@ -1,0 +1,23 @@
+.Bishal{
+/*    font-family: 'Catamaran', sans-serif;*/
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+.jumbojumbo{
+    background-color: #121212;
+    color: #fff;
+}
+.footer1{
+    color: #fff;
+    background-color: #000;
+    padding: 7% 0%;
+}
+.footer2{
+    color: #fff;
+    font-style: italic;
+    background-color: #000;
+}
